@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Counter-app</title>
+</head>
+<body class="flex flex-col justify-center items-center min-h-screen ">
+    <div class="bg-gray-700  font-bold w-80 h-96  rounded-4xl ">
+        <div class="justify-center flex flex-col items-center mt-22">
+        <h1 id="text" class="text-6xl mb-8">    
+            0
+        </h1>
+        <div class="flex gap-8">
+        <button id="plus" class="text-6xl text-green-500"><ion-icon name="arrow-up-circle-sharp"></ion-icon></button>
+        <button id="minus" class="text-6xl text-red-500"><ion-icon name="arrow-down-circle-sharp"></ion-icon></ion-icon></button>
+       </div>
+       <button class="bg-red-700 rounded-2xl px-2 py-2 text-white " id="delete"> Delete<ion-icon class="" name="trash-sharp"></ion-icon></button>
+       </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
